@@ -1,0 +1,523 @@
+@prefix ns1: <http://example.org/films/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:HorrorMovie1 a ns1:Movie ;
+    ns1:director "William Friedkin" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Ellen Burstyn" ;
+    ns1:leadActress "Max von Sydow" ;
+    ns1:releaseYear 1973 ;
+    ns1:runningTime "122 minutes" ;
+    ns1:title "The Exorcist" .
+
+ns1:HorrorMovie10 a ns1:Movie ;
+    ns1:director "Gore Verbinski" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Naomi Watts" ;
+    ns1:leadActress "Martin Henderson" ;
+    ns1:releaseYear 2002 ;
+    ns1:runningTime "115 minutes" ;
+    ns1:title "The Ring" .
+
+ns1:HorrorMovie2 a ns1:Movie ;
+    ns1:director "Jordan Peele" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Daniel Kaluuya" ;
+    ns1:leadActress "Allison Williams" ;
+    ns1:releaseYear 2017 ;
+    ns1:runningTime "104 minutes" ;
+    ns1:title "Get Out" .
+
+ns1:HorrorMovie3 a ns1:Movie ;
+    ns1:director "Brian De Palma" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Sissy Spacek" ;
+    ns1:leadActress "Piper Laurie" ;
+    ns1:releaseYear 1976 ;
+    ns1:runningTime "98 minutes" ;
+    ns1:title "Carrie" .
+
+ns1:HorrorMovie4 a ns1:Movie ;
+    ns1:director "Stanley Kubrick" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Jack Nicholson" ;
+    ns1:leadActress "Shelley Duvall" ;
+    ns1:releaseYear 1980 ;
+    ns1:runningTime "146 minutes" ;
+    ns1:title "The Shining" .
+
+ns1:HorrorMovie5 a ns1:Movie ;
+    ns1:director "John Krasinski" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "John Krasinski" ;
+    ns1:leadActress "Emily Blunt" ;
+    ns1:releaseYear 2018 ;
+    ns1:runningTime "90 minutes" ;
+    ns1:title "A Quiet Place" .
+
+ns1:HorrorMovie6 a ns1:Movie ;
+    ns1:director "Jonathan Demme" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Jodie Foster" ;
+    ns1:leadActress "Anthony Hopkins" ;
+    ns1:releaseYear 1991 ;
+    ns1:runningTime "118 minutes" ;
+    ns1:title "The Silence of the Lambs" .
+
+ns1:HorrorMovie7 a ns1:Movie ;
+    ns1:director "Alfred Hitchcock" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Anthony Perkins" ;
+    ns1:leadActress "Janet Leigh" ;
+    ns1:releaseYear 1960 ;
+    ns1:runningTime "109 minutes" ;
+    ns1:title "Psycho" .
+
+ns1:HorrorMovie8 a ns1:Movie ;
+    ns1:director "James Wan" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Vera Farmiga" ;
+    ns1:leadActress "Patrick Wilson" ;
+    ns1:releaseYear 2013 ;
+    ns1:runningTime "112 minutes" ;
+    ns1:title "The Conjuring" .
+
+ns1:HorrorMovie9 a ns1:Movie ;
+    ns1:director "Wes Craven" ;
+    ns1:genre "Horror" ;
+    ns1:leadActor "Heather Langenkamp" ;
+    ns1:leadActress "Johnny Depp" ;
+    ns1:releaseYear 1984 ;
+    ns1:runningTime "91 minutes" ;
+    ns1:title "A Nightmare on Elm Street" .
+
+ns1:Movie102 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2020 ;
+    ns1:title "Movie 102" .
+
+ns1:Movie103 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2016 ;
+    ns1:title "Movie 103" .
+
+ns1:Movie104 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2000 ;
+    ns1:title "Movie 104" .
+
+ns1:Movie105 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2006 ;
+    ns1:title "Movie 105" .
+
+ns1:Movie106 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2018 ;
+    ns1:title "Movie 106" .
+
+ns1:Movie107 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2010 ;
+    ns1:title "Movie 107" .
+
+ns1:Movie108 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2006 ;
+    ns1:title "Movie 108" .
+
+ns1:Movie109 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2011 ;
+    ns1:title "Movie 109" .
+
+ns1:Movie110 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2019 ;
+    ns1:title "Movie 110" .
+
+ns1:Movie111 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2020 ;
+    ns1:title "Movie 111" .
+
+ns1:Movie112 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2016 ;
+    ns1:title "Movie 112" .
+
+ns1:Movie113 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2015 ;
+    ns1:title "Movie 113" .
+
+ns1:Movie114 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2004 ;
+    ns1:title "Movie 114" .
+
+ns1:Movie115 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2001 ;
+    ns1:title "Movie 115" .
+
+ns1:Movie116 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2018 ;
+    ns1:title "Movie 116" .
+
+ns1:Movie117 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2011 ;
+    ns1:title "Movie 117" .
+
+ns1:Movie118 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2017 ;
+    ns1:title "Movie 118" .
+
+ns1:Movie119 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2010 ;
+    ns1:title "Movie 119" .
+
+ns1:Movie120 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2022 ;
+    ns1:title "Movie 120" .
+
+ns1:Movie121 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2009 ;
+    ns1:title "Movie 121" .
+
+ns1:Movie122 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2003 ;
+    ns1:title "Movie 122" .
+
+ns1:Movie123 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2023 ;
+    ns1:title "Movie 123" .
+
+ns1:Movie124 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2006 ;
+    ns1:title "Movie 124" .
+
+ns1:Movie125 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2017 ;
+    ns1:title "Movie 125" .
+
+ns1:Movie126 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2001 ;
+    ns1:title "Movie 126" .
+
+ns1:Movie127 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2007 ;
+    ns1:title "Movie 127" .
+
+ns1:Movie128 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2012 ;
+    ns1:title "Movie 128" .
+
+ns1:Movie129 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2016 ;
+    ns1:title "Movie 129" .
+
+ns1:Movie130 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2017 ;
+    ns1:title "Movie 130" .
+
+ns1:Movie131 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2013 ;
+    ns1:title "Movie 131" .
+
+ns1:Movie132 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2007 ;
+    ns1:title "Movie 132" .
+
+ns1:Movie133 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2000 ;
+    ns1:title "Movie 133" .
+
+ns1:Movie134 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2000 ;
+    ns1:title "Movie 134" .
+
+ns1:Movie135 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2014 ;
+    ns1:title "Movie 135" .
+
+ns1:Movie136 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2001 ;
+    ns1:title "Movie 136" .
+
+ns1:Movie137 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2022 ;
+    ns1:title "Movie 137" .
+
+ns1:Movie138 a ns1:Movie ;
+    ns1:genre "Sci-Fi" ;
+    ns1:releaseYear 2009 ;
+    ns1:title "Movie 138" .
+
+ns1:Movie139 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2001 ;
+    ns1:title "Movie 139" .
+
+ns1:Movie140 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2018 ;
+    ns1:title "Movie 140" .
+
+ns1:Movie141 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2016 ;
+    ns1:title "Movie 141" .
+
+ns1:Movie142 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2004 ;
+    ns1:title "Movie 142" .
+
+ns1:Movie143 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2009 ;
+    ns1:title "Movie 143" .
+
+ns1:Movie144 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2003 ;
+    ns1:title "Movie 144" .
+
+ns1:Movie145 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2006 ;
+    ns1:title "Movie 145" .
+
+ns1:Movie146 a ns1:Movie ;
+    ns1:genre "Comedy" ;
+    ns1:releaseYear 2012 ;
+    ns1:title "Movie 146" .
+
+ns1:Movie147 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2001 ;
+    ns1:title "Movie 147" .
+
+ns1:Movie148 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2017 ;
+    ns1:title "Movie 148" .
+
+ns1:Movie149 a ns1:Movie ;
+    ns1:genre "Action" ;
+    ns1:releaseYear 2005 ;
+    ns1:title "Movie 149" .
+
+ns1:Movie150 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2018 ;
+    ns1:title "Movie 150" .
+
+ns1:Movie151 a ns1:Movie ;
+    ns1:genre "Drama" ;
+    ns1:releaseYear 2019 ;
+    ns1:title "Movie 151" .
+
+ns1:RomanticMovie1 a ns1:Movie ;
+    ns1:director "Nick Cassavetes" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Ryan Gosling" ;
+    ns1:leadActress "Rachel McAdams" ;
+    ns1:releaseYear 2004 ;
+    ns1:runningTime "123 minutes" ;
+    ns1:title "The Notebook" .
+
+ns1:RomanticMovie10 a ns1:Movie ;
+    ns1:director "Michel Gondry" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Jim Carrey" ;
+    ns1:leadActress "Kate Winslet" ;
+    ns1:releaseYear 2004 ;
+    ns1:runningTime "108 minutes" ;
+    ns1:title "Eternal Sunshine of the Spotless Mind" .
+
+ns1:RomanticMovie2 a ns1:Movie ;
+    ns1:director "Baz Luhrmann" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Ewan McGregor" ;
+    ns1:leadActress "Nicole Kidman" ;
+    ns1:releaseYear 2001 ;
+    ns1:runningTime "127 minutes" ;
+    ns1:title "Moulin Rouge!" .
+
+ns1:RomanticMovie3 a ns1:Movie ;
+    ns1:director "Kevin Lima" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Patrick Dempsey" ;
+    ns1:leadActress "Amy Adams" ;
+    ns1:releaseYear 2007 ;
+    ns1:runningTime "107 minutes" ;
+    ns1:title "Enchanted" .
+
+ns1:RomanticMovie4 a ns1:Movie ;
+    ns1:director "Garry Marshall" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Richard Gere" ;
+    ns1:leadActress "Julia Roberts" ;
+    ns1:releaseYear 1990 ;
+    ns1:runningTime "119 minutes" ;
+    ns1:title "Pretty Woman" .
+
+ns1:RomanticMovie5 a ns1:Movie ;
+    ns1:director "Marc Webb" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Joseph Gordon-Levitt" ;
+    ns1:leadActress "Zooey Deschanel" ;
+    ns1:releaseYear 2009 ;
+    ns1:runningTime "95 minutes" ;
+    ns1:title "500 Days of Summer" .
+
+ns1:RomanticMovie6 a ns1:Movie ;
+    ns1:director "Rob Reiner" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Billy Crystal" ;
+    ns1:leadActress "Meg Ryan" ;
+    ns1:releaseYear 1989 ;
+    ns1:runningTime "95 minutes" ;
+    ns1:title "When Harry Met Sally" .
+
+ns1:RomanticMovie7 a ns1:Movie ;
+    ns1:director "Brian Helgeland" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Heath Ledger" ;
+    ns1:leadActress "Shannyn Sossamon" ;
+    ns1:releaseYear 2001 ;
+    ns1:runningTime "132 minutes" ;
+    ns1:title "A Knight's Tale" .
+
+ns1:RomanticMovie8 a ns1:Movie ;
+    ns1:director "Roger Michell" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Hugh Grant" ;
+    ns1:leadActress "Julia Roberts" ;
+    ns1:releaseYear 1999 ;
+    ns1:runningTime "124 minutes" ;
+    ns1:title "Notting Hill" .
+
+ns1:RomanticMovie9 a ns1:Movie ;
+    ns1:director "David O. Russell" ;
+    ns1:genre "Romantic" ;
+    ns1:leadActor "Bradley Cooper" ;
+    ns1:leadActress "Jennifer Lawrence" ;
+    ns1:releaseYear 2012 ;
+    ns1:runningTime "122 minutes" ;
+    ns1:title "Silver Linings Playbook" .
+
+ns1:SciFiMovie1 a ns1:Movie ;
+    ns1:director "Christopher Nolan" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Leonardo DiCaprio" ;
+    ns1:leadActress "Ellen Page" ;
+    ns1:releaseYear 2010 ;
+    ns1:runningTime "148 minutes" ;
+    ns1:title "Inception" .
+
+ns1:SciFiMovie10 a ns1:Movie ;
+    ns1:director "Michel Gondry" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Jim Carrey" ;
+    ns1:leadActress "Kate Winslet" ;
+    ns1:releaseYear 2004 ;
+    ns1:runningTime "108 minutes" ;
+    ns1:title "Eternal Sunshine of the Spotless Mind" .
+
+ns1:SciFiMovie2 a ns1:Movie ;
+    ns1:director "Christopher Nolan" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Matthew McConaughey" ;
+    ns1:leadActress "Anne Hathaway" ;
+    ns1:releaseYear 2014 ;
+    ns1:runningTime "169 minutes" ;
+    ns1:title "Interstellar" .
+
+ns1:SciFiMovie3 a ns1:Movie ;
+    ns1:director "George Lucas" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Mark Hamill" ;
+    ns1:leadActress "Carrie Fisher" ;
+    ns1:releaseYear 1977 ;
+    ns1:runningTime "121 minutes" ;
+    ns1:title "Star Wars: Episode IV - A New Hope" .
+
+ns1:SciFiMovie4 a ns1:Movie ;
+    ns1:director "Ridley Scott" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Harrison Ford" ;
+    ns1:leadActress "Sean Young" ;
+    ns1:releaseYear 1982 ;
+    ns1:runningTime "117 minutes" ;
+    ns1:title "Blade Runner" .
+
+ns1:SciFiMovie5 a ns1:Movie ;
+    ns1:director "Lana Wachowski, Lilly Wachowski" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Keanu Reeves" ;
+    ns1:leadActress "Carrie-Anne Moss" ;
+    ns1:releaseYear 1999 ;
+    ns1:runningTime "136 minutes" ;
+    ns1:title "The Matrix" .
+
+ns1:SciFiMovie6 a ns1:Movie ;
+    ns1:director "Steven Spielberg" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Haley Joel Osment" ;
+    ns1:leadActress "Frances O'Connor" ;
+    ns1:releaseYear 2001 ;
+    ns1:runningTime "146 minutes" ;
+    ns1:title "A.I. Artificial Intelligence" .
+
+ns1:SciFiMovie7 a ns1:Movie ;
+    ns1:director "Andrew Niccol" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Ethan Hawke" ;
+    ns1:leadActress "Uma Thurman" ;
+    ns1:releaseYear 2011 ;
+    ns1:runningTime "106 minutes" ;
+    ns1:title "Dystopia" .
+
+ns1:SciFiMovie8 a ns1:Movie ;
+    ns1:director "Denis Villeneuve" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "Amy Adams",
+        "Jeremy Renner" ;
+    ns1:releaseYear 2016 ;
+    ns1:runningTime "116 minutes" ;
+    ns1:title "Arrival" .
+
+ns1:SciFiMovie9 a ns1:Movie ;
+    ns1:director "Alfonso Cuarón" ;
+    ns1:genre "Sci-Fi" ;
+    ns1:leadActor "George Clooney",
+        "Sandra Bullock" ;
+    ns1:releaseYear 2013 ;
+    ns1:runningTime "91 minutes" ;
+    ns1:title "Gravity" .
+
